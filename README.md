@@ -1,0 +1,1 @@
+This module is created to create a container for widgets between product name/title and Power Reviews.  If you remove power reviews you will need to modify this to catalog.

@@ -1,0 +1,22 @@
+{
+  "name": "doirun/titlewidget",
+  "description": "Add widget to title when Power Reviews is installed",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Kevin Bodwell",
+      "email": "kevin@doi.run",
+      "homepage": "http://github.com/doirun"
+    }
+  ],
+  "require": {
+    "powerreviews/review-display": ">=1.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "DoIRun\\TitleWidget\\": ""
+    }
+  }
+}
